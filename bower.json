@@ -1,0 +1,28 @@
+{
+  "name": "mixmax-weather-app",
+  "description": "Embed a weather forecast into your emails",
+  "main": "index.js",
+  "authors": [
+    "Mauricio Schneider <hello@lemavri.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "mixmax",
+    "weather",
+    "forecast",
+    "email"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "simpleWeather": "^3.1.0",
+    "urijs": "uri.js#~1.17.0"
+  }
+}

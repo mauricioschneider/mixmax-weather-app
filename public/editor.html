@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Forecasting</title>
+  <script defer src="https://d1xa36cy0xt122.cloudfront.net/v1/Mixmax.js"></script>
+  <link rel="stylesheet" href="css/screen.css">
+</head>
+
+<body>
+  <div id="weather"></div>
+  <form id="control-container" action="">
+    <div class="inputs">
+      <div class="column">
+        <label for="city">City</label>
+        <input id="city" type="text" placeholder="San Francisco" autofocus />
+      </div>
+      <div class="column">
+        <label id="forecast-label" for="forecast">Days</label>
+        <select id="forecast">
+          <option value=1>1 day</option>
+          <option value=2>2 days</option>
+          <option value=3>3 days</option>
+          <option value=4>4 days</option>
+          <option value=5>5 days</option>
+        </select>
+      </div>
+      <a class="search">Search</a>
+      <div class="clear"></div>
+      <i class="icon-compass"></i><a class="js-geolocation">Or use your location instead</a>
+      <div class="sep"></div>
+      <a class="submit cancel" href="#">Cancel</a>
+      <a class="submit insert" href="#">Insert</a>
+      <div class="clear"></div>
+    </div>
+  </form>
+  <!-- Here be dragons, unicorns and magic and stuff like that -->
+  <!-- ...oh, and also some JS -->
+  <script src="components/jquery/dist/jquery.min.js"></script>
+  <script src="components/urijs/src/URI.min.js"></script>
+  <script src="components/simpleWeather/jquery.simpleWeather.min.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+
+</html>
