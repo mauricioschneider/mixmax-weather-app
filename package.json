@@ -4,7 +4,7 @@
   "description": "Embed a weather forecast into your emails",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,8 @@
   "author": "Mauricio Schneider <hello@lemavri.com>",
   "license": "MIT",
   "devDependencies": {
-    "bower": "^1.7.7"
+    "bower": "^1.7.7",
+    "nodemon": "^1.8.1"
   },
   "dependencies": {
     "body-parser": "^1.14.2",
