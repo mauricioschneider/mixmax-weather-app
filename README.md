@@ -1,7 +1,9 @@
+[![Code Climate](https://codeclimate.com/github/lemavri/mixmax-weather-app/badges/gpa.svg)](https://codeclimate.com/github/lemavri/mixmax-weather-app)  
+
 # Mixmax Weather Enhancement
 Embed weather forecast into emails sent with Mixmax
 
-## How does it looks
+## How does it look
 
 ### Single day
 ![](https://raw.githubusercontent.com/lemavri/mixmax-weather-app/master/docs/single.png)
