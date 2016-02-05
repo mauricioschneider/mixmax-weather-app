@@ -20,8 +20,8 @@ Go to [Mixmax Integrations dashboard](https://app.mixmax.com/dashboard/integrati
 
 ### Setup your environment
 #### Install dependencies
-`bower install`
-`npm install`
+Run `npm install` and `bower install`
+
 
 #### Run the server
 - nodemon: `npm start`
